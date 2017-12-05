@@ -2,7 +2,7 @@
 * @Author: JiaxiaLi
 * @Date:   2017-10-27 16:37:31
 * @Last Modified by:   JiaxiaLi
-* @Last Modified time: 2017-10-29 22:03:33
+* @Last Modified time: 2017-12-03 19:30:19
 */
 /* css reset——统一/去掉DOM元素的默认样式，以防不同浏览器的表现差异 */
 *{
@@ -38,6 +38,26 @@ input[type='checkbox']{
 	margin: 0 auto;
 	position: relative;
 	overflow: hidden;
+}
+
+/*panel*/
+.panel{
+		padding: 10px;
+		margin-bottom: 10px;
+		background: #fff;
+}
+
+.panel .panel-title{
+		padding: 10px;
+		font-size: 14px;
+		color: #666;
+		font-weight: bold;
+		border-bottom: 1px solid #eee;
+}
+
+.panel .panel-body{
+		padding: 10px;
+		overflow: hidden;
 }
 
 /* 全局通用样式 */

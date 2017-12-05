@@ -2,7 +2,7 @@
 * @Author: JiaxiaLi
 * @Date:   2017-10-30 07:18:27
 * @Last Modified by:   JiaxiaLi
-* @Last Modified time: 2017-11-02 13:59:30
+* @Last Modified time: 2017-12-03 08:58:28
 */
 
 'use strict';
@@ -26,7 +26,7 @@ var nav ={
 				});
 				//注册点击事件
 				$('.js-register').click(function() {
-						window.location.href = '/register.html';
+						window.location.href = './user-register.html';
 				});
 				//退出点击事件
 				$('.js-logout').click(function() {
@@ -40,7 +40,7 @@ var nav ={
 		//加载用户信息
 		loadUserInfo : function(){
 				_user.checkLogin(function(res){
-						$('.user.not-login').hide().siblings('.user.login').show().find('.username').test(res.name);
+						$('.user.not-login').hide().siblings('.user.login').show().find('.username').text(res.username);
 				},function(errMsg){
 						//do nothing
 				});
