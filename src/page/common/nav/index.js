@@ -2,7 +2,7 @@
 * @Author: JiaxiaLi
 * @Date:   2017-10-30 07:18:27
 * @Last Modified by:   JiaxiaLi
-* @Last Modified time: 2017-12-03 08:58:28
+* @Last Modified time: 2017-12-25 07:36:30
 */
 
 'use strict';
@@ -48,7 +48,7 @@ var nav ={
 		//加载购物车数量
 		loadCartCount : function(){
 				_cart.getCartCount(function(res){
-						$('.nav .cart-count').test(res || 0);
+						$('.nav .cart-count').text(res || 0);
 				},function(errMsg){
 						$('.nav .cart-count').text(0);
 				});

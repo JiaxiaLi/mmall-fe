@@ -2,7 +2,7 @@
 * @Author: JiaxiaLi
 * @Date:   2017-10-25 22:43:20
 * @Last Modified by:   JiaxiaLi
-* @Last Modified time: 2017-11-21 16:36:27
+* @Last Modified time: 2017-12-25 07:24:49
 */
 
 'use strict';
@@ -86,7 +86,7 @@ var _mm = {
     },
     //回首页
     goHome : function(){
-        window.locatin.href ='./index.html';
+        window.location.href ='./index.html';
     }
 };
 

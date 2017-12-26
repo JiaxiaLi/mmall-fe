@@ -2,7 +2,7 @@
 * @Author: JiaxiaLi
 * @Date:   2017-10-31 07:52:41
 * @Last Modified by:   JiaxiaLi
-* @Last Modified time: 2017-11-02 10:05:36
+* @Last Modified time: 2017-12-17 21:09:08
 */
 
 'use strict';
@@ -13,6 +13,7 @@ var _mm 		= require('../../../util/mm.js');
 var header 	= {
 		init : function(){
 				this.bindEvent();
+				this.onLoad();
 		},
 		onLoad : function(){
 				var keyword = _mm.getUrlParam('keyword');
@@ -20,7 +21,7 @@ var header 	= {
 				if(keyword){
 					$('#search-input').val(keyword);
 				};
-		}，
+		},
 		bindEvent : function(){
 				var _this = this;
 				//点击搜索按钮以后，做搜索提交
