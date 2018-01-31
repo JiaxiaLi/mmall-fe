@@ -2,10 +2,9 @@
 * @Author: JiaxiaLi
 * @Date:   2018-01-31 19:14:39
 * @Last Modified by:   JiaxiaLi
-* @Last Modified time: 2018-01-31 22:27:05
+* @Last Modified time: 2018-01-31 22:51:04
 */
 
-'use strict';
 'use strict';
 require('./index.css');
 require('../common/nav/index.css');
