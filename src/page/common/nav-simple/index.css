@@ -1,0 +1,19 @@
+/*
+* @Author: JiaxiaLi
+* @Date:   2017-10-29 22:43:44
+* @Last Modified by:   JiaxiaLi
+* @Last Modified time: 2017-12-03 18:47:56
+*/
+.nav-simple{
+	height: 60px;
+	line-height: 60px;
+	border-bottom: 1px solid #ddd;
+	background: #fff;
+}
+
+.nav-simple .logo{
+	font-size: 26px;
+	font-weight: bold;
+	color: #c60023;
+	text-decoration: none;
+}
